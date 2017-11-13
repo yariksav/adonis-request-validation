@@ -16,8 +16,8 @@ class RequestValidationProvider extends ServiceProvider {
     const CE = this.app.use('@adonisjs/validator/src/Exceptions')
 
     /**
-     * Extend route class by adding a macro, which pushes a
-     * possibility to simple validate request
+     * Extend request class by adding a macro, which pushes a
+     * possibility to validate params directly
      */
     Request.macro('validate', async function (rules) {
       let validation = await validateAll(this.all(), rules)
