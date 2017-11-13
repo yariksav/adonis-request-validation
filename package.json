@@ -1,0 +1,22 @@
+{
+  "name": "@adonisjs/request-validation",
+  "version": "1.0.0",
+  "description": "Extends adonisjs request by adding validate function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Savaryn Yaroslav",
+  "license": "MIT",
+  "dependencies": {
+    "@adonisjs/framework@lastest",
+    "@adonisjs/validator@lastest"
+  }
+  "keywords": [
+    "adonis-framework",
+    "adonisjs",
+    "validation",
+    "validator",
+    "request"
+  ],
+}
