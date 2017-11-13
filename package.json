@@ -9,8 +9,8 @@
   "author": "Savaryn Yaroslav",
   "license": "MIT",
   "dependencies": {
-    "@adonisjs/framework": "lastest",
-    "@adonisjs/validator": "lastest"
+    "@adonisjs/framework": "^4.0.24",
+    "@adonisjs/validator": "^4.0.6"
   },
   "keywords": [
     "adonis-framework",
