@@ -1,5 +1,5 @@
 {
-  "name": "@adonisjs/request-validation",
+  "name": "adonis-request-validation",
   "version": "1.0.0",
   "description": "Extends adonisjs request by adding validate function",
   "main": "index.js",

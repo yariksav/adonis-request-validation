@@ -8,13 +8,13 @@ If the validation rules pass, your code will keep executing normally; however, i
 Install the package from npm
 
 ```npm
-npm install @adonisjs/request-validation
+npm install adonis-request-validation
 ```
 
 ```javascript
 const providers = [
   ...
-  '@adonisjs/request-validation/providers/StorageProvider'
+  'adonis-request-validation/providers/StorageProvider'
 ]
 ```
 
