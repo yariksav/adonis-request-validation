@@ -1,6 +1,6 @@
 {
   "name": "adonis-request-validation",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Extends adonisjs request by adding validate function",
   "main": "index.js",
   "scripts": {
