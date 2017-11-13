@@ -9,14 +9,14 @@
   "author": "Savaryn Yaroslav",
   "license": "MIT",
   "dependencies": {
-    "@adonisjs/framework@lastest",
-    "@adonisjs/validator@lastest"
-  }
+    "@adonisjs/framework": "lastest",
+    "@adonisjs/validator": "lastest"
+  },
   "keywords": [
     "adonis-framework",
     "adonisjs",
     "validation",
     "validator",
     "request"
-  ],
+  ]
 }
