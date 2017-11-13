@@ -19,9 +19,7 @@ class RequestValidationProvider extends ServiceProvider {
      * Extend route class by adding a macro, which pushes a
      * possibility to simple validate request
      */
-    console.log(this)
     Request.macro('validate', async function (rules) {
-      console.log(rules)
       let validation = await validateAll(this.all(), rules)
       if (validation.fails()) {
         throw CE.ValidationException.validationFailed(validation.messages())

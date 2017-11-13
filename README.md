@@ -14,7 +14,7 @@ npm install adonis-request-validation
 ```javascript
 const providers = [
   ...
-  'adonis-request-validation/providers/StorageProvider'
+  'adonis-request-validation/providers/RequestValidationProvider'
 ]
 ```
 
