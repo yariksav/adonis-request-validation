@@ -1,10 +1,14 @@
 {
   "name": "adonis-request-validation",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Extends adonisjs request by adding validate function",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yariksav/adonis-request-validation.git"
   },
   "author": "Savaryn Yaroslav",
   "license": "MIT",
