@@ -21,11 +21,25 @@ const providers = [
 ## Usage
 
 ```js
-    await request.validate({
-      name: 'required|min:5',
-      status: 'required|in:A,D',
-      objecttype: 'required|in:D,W,A,M'
-    })
+await request.validate({
+  name: 'required|min:5',
+  status: 'required|in:A,D',
+  objecttype: 'required|in:D,W,A,M'
+})
 ```
 
+For validating all the fields, make use of `validateAll` method.
 
+```js
+await request.validateAll({
+  name: 'required|min:5',
+  status: 'required|in:A,D',
+  objecttype: 'required|in:D,W,A,M'
+})
+```
+
+Also you can pass another argument for custom messages to `validate` and `validateAll` methods.
+
+```js
+await request.validateAll(rules, messages)
+```
